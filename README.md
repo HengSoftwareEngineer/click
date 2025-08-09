@@ -7,7 +7,7 @@ Click.exe is a simple desktop application to quickly scaffold popular frontend p
 
 ---
 
-## Features
+🚀## Features
 
 - Create Next.js projects with options for TypeScript, ESLint, Tailwind CSS, and App Router.
 - Create React + Vite or Vue + Vite projects with TypeScript support.
@@ -17,7 +17,7 @@ Click.exe is a simple desktop application to quickly scaffold popular frontend p
 
 ---
 
-## How to Use
+🌈## How to Use
 
 1. **Run Click.exe**  
    Launch the application by double-clicking `Click.exe`.
@@ -47,14 +47,14 @@ Click.exe is a simple desktop application to quickly scaffold popular frontend p
 
 ---
 
-## Requirements
+🔥## Requirements
 
 - Node.js and npm installed and accessible from your system PATH.
 - Visual Studio Code installed and added to PATH (`code` command available).
 
 ---
 
-## Troubleshooting
+⚡## Troubleshooting
 
 - If the project folder already exists, you will be prompted to choose another name.
 - Make sure `npx`, `npm`, and `code` commands are accessible.
