@@ -1,5 +1,13 @@
-⚠ ALERT
+⚠ ## Important Prerequisites
+Before running Click.exe, please make sure you have the following installed on your computer:
+
+Visual Studio Code – required for automatically opening the project after creation.🔗 (https://code.visualstudio.com)
+
+Node.js (includes npm & npx) – required for creating and installing dependencies for React, Vue, or Next.js projects.🔗 (https://nodejs.org)
+
 > **Note:** Tailwind CSS is not yet supported for React.js and Vue projects, but it will be added soon.
+
+___________________________________________________________________________________________________________
 
 # Click.exe - Click
 
