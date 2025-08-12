@@ -4,9 +4,10 @@
 
 ---
 
-## 📥 Installation & 🔥 Requirements
+## 🚨 If Not Found
 
-🚨 Before running **Click.exe**, make sure the following are installed and properly set up on your system:
+> Before running Click.exe, if you haven’t installed or configured the following tools on your system, don’t worry — Click.exe can automatically install and set them up for you.
+  However, if you prefer to install them manually, please follow the instructions above.
 
 - **[Node.js](https://nodejs.org/)** and **npm** — must be accessible from your system PATH.
    
@@ -20,10 +21,14 @@
    *To check versions, run:* 
    `flutter --version`
 
+---
+
+## 🔥 Requirements
 
 - **[Visual Studio Code](https://code.visualstudio.com/)** — added to PATH with the `code` command available.
    *To check versions, run:*
    `code --version`
+  ⚠️ Missing or misconfigured tools may cause errors during usage.
 
 
 > If any of the above are missing or incorrectly set up, you may encounter errors during use.
