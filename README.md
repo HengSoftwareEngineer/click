@@ -14,7 +14,7 @@
    *To check versions, run:* 
    `node --version`
    `npm --version`
-> Currently supports only npm. More package managers will be added in the future.
+> Currently supports only `npm`. More package managers will be added in the future.
 
 
 - **[Flutter SDK](https://docs.flutter.dev/get-started/install)** — must be installed and added to your system PATH. 
