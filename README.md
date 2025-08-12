@@ -9,11 +9,12 @@
 > Before running Click.exe, if you haven’t installed or configured the following tools on your system, don’t worry — Click.exe can automatically install and set them up for you.
   However, if you prefer to install them manually, please follow the instructions above.
 
-- **[Node.js](https://nodejs.org/)** and **npm** — must be accessible from your system PATH.
+- **[Node.js](https://nodejs.org/)** and **`npm`** — must be accessible from your system PATH.
    
    *To check versions, run:* 
    `node --version`
    `npm --version`
+> Currently supports only npm. More package managers will be added in the future.
 
 
 - **[Flutter SDK](https://docs.flutter.dev/get-started/install)** — must be installed and added to your system PATH. 
