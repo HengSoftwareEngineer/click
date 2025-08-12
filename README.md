@@ -1,71 +1,100 @@
-⚠ ALERT
-> **Note:** Tailwind CSS is not yet supported for React.js and Vue projects, but it will be added soon.
+# 🖱️ Click.exe - Click
 
-# Click.exe - Click
-
-Click.exe is a simple desktop application to quickly scaffold popular frontend projects like Next.js, React + Vite, and Vue + Vite, with options for TypeScript, ESLint, Tailwind CSS, and more.
+📢 Click is a simple desktop application to quickly scaffold popular frontend projects like **Next.js**, **React + Vite**, and **Vue + Vite**, with options for **TypeScript**, **ESLint**, **Tailwind CSS**, and more.
 
 ---
 
-🚀## Features
+## 📥 Installation & 🔥 Requirements
 
-- Create Next.js projects with options for TypeScript, ESLint, Tailwind CSS, and App Router.
-- Create React + Vite or Vue + Vite projects with TypeScript support.
-- Automatically runs `npm install` for Vite projects.
-- Opens the created project in Visual Studio Code.
+🚨 Before running **Click.exe**, make sure the following are installed and properly set up on your system:
+
+- **[Node.js](https://nodejs.org/)** and **npm** — must be accessible from your system PATH.
+   
+   *To check versions, run:* 
+   `node --version`
+   `npm --version`
+
+
+- **[Flutter SDK](https://docs.flutter.dev/get-started/install)** — must be installed and added to your system PATH. 
+   ➡ *Example Flutter SDK PATH: `C:\src\flutter\bin`*
+   *To check versions, run:* 
+   `flutter --version`
+
+
+- **[Visual Studio Code](https://code.visualstudio.com/)** — added to PATH with the `code` command available.
+   *To check versions, run:*
+   `code --version`
+
+
+> If any of the above are missing or incorrectly set up, you may encounter errors during use.
+
+
+### ⬇⬇⬇ Steps to Install
+
+1. **Locate the `setup` folder** in this project.  
+2. **Run `clicksetup-2.0.0.exe`** to install the application.  
+3. If Windows Defender or another antivirus flags the file:  
+   - This is a **false positive** caused by the app not being code-signed or registered with Microsoft.  
+   - It is safe to proceed — simply choose **"More info" → "Run anyway"**.  
+   - You can also verify the installer’s source files in the [`\setup\ui`](./setup/ui) folder before proceeding.
+
+
+---
+
+## 📦 Features
+
+- Create **Next.js** projects with options for TypeScript, ESLint, Tailwind CSS, and App Router.
+- Create **React + Vite** or **Vue + Vite** projects with TypeScript support.
+- Create **Flutter App** projects. 🔥
+- Automatically runs `npm install` and installs `tailwindcss @tailwindcss/vite` for Vite projects. 🔥
+- Automatically configures `vite.config.ts` or `vite.config.js`. 🔥
+- Automatically imports `@import "tailwindcss";` in CSS files for both React and Vue. 🔥
+- Automatically installs **Node.js** if not found. 🔥
+- Automatically installs **Flutter SDK** if not found. 🔥
+- Opens the created project in **Visual Studio Code**.
 - User-friendly GUI with progress logs and real-time feedback.
 
 ---
 
-🌈## How to Use
+## 🌈 How to Use
 
-1. **Run Click.exe**  
-   Launch the application by double-clicking `Click.exe`.
+1. **Set Project Name**  
+   Enter your desired project name (e.g., `my_first_app`).
 
-2. **Set Project Name**  
-   Enter your desired project name.
-
-3. **Select Target Directory**  
+2. **Select Target Directory**  
    Choose where you want the project folder to be created.
 
-4. **Select Framework / Template**  
-   Choose one of the following:
-   - Next.js
-   - React + Vite
-   - Vue + Vite
+3. **Select Framework / Template**  
+   - Next.js  
+   - React + Vite  
+   - Vue + Vite  
+   - Flutter 🔥
 
-5. **Configure Options**  
-   - For Next.js, you can toggle TypeScript, ESLint, Tailwind CSS, use `/src` directory, and enable App Router.
-   - For React + Vite or Vue + Vite, you can enable TypeScript.
+4. **Configure Options**  
+   - **Next.js:** Toggle TypeScript, ESLint, Tailwind CSS, use `/src` directory, and enable App Router.  
+   - **React + Vite / Vue + Vite:** Option to enable TypeScript.
 
-6. **Create Project**  
-   Click the **Create Project** button.  
-   The tool will scaffold your project, run `npm install` if necessary, and open Visual Studio Code.
+5. **Create Project**  
+   Click the **Create Project** button. The tool will scaffold your project, install dependencies, and open it in Visual Studio Code.
 
-7. **Monitor Progress**  
-   You can see logs and progress in the log window.
-
----
-
-🔥## Requirements
-
-- Node.js and npm installed and accessible from your system PATH.
-- Visual Studio Code installed and added to PATH (`code` command available).
+6. **Monitor Progress**  
+   View real-time logs and progress updates in the log window.
 
 ---
 
-⚡## Troubleshooting
+## ⚡ Troubleshooting
 
 - If the project folder already exists, you will be prompted to choose another name.
-- Make sure `npx`, `npm`, and `code` commands are accessible.
+- Ensure `npx`, `npm`, and `code` commands are accessible.
 - Check the log for any errors during project creation.
+> **Important:** When creating a Flutter project, use underscores (_) in the project name (e.g., my_first_app) instead of spaces or hyphens.
 
 ---
 
-## License
+## 📄 License
 
-See the [LICENSE.txt](LICENSE.txt) file for details.
+See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
-Created by Mai Bunheng | [maibunheng.site](https://www.maibunheng.site)
+**Created by:** Mai Bunheng | [maibunheng.site](https://www.maibunheng.site)
