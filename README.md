@@ -18,6 +18,7 @@
 
 - **[Flutter SDK](https://docs.flutter.dev/get-started/install)** — must be installed and added to your system PATH. 
    ➡ *Example Flutter SDK PATH: `C:\src\flutter\bin`*
+  
    *To check versions, run:* 
    `flutter --version`
 
@@ -33,6 +34,7 @@
 
 > If any of the above are missing or incorrectly set up, you may encounter errors during use.
 
+---
 
 ### ⬇⬇⬇ Steps to Install
 
