@@ -1,4 +1,4 @@
-## 🚀 For latest version, please check releases list :)
+## 🚀 For latest version is below :)
 `Latest Version:` [clicksetup-v2.2.1](https://github.com/HengSoftwareEngineer/click/releases/tag/clicksetup-v2.2.1)
 
 
