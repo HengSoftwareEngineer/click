@@ -2,6 +2,9 @@
 `Latest Version:` [clicksetup-v2.2.1](https://github.com/HengSoftwareEngineer/click/releases/tag/clicksetup-v2.2.1)
 
 
+---
+
+
 # 🖱️ Click.exe - Click
 
 📢 Click is a simple tool desktop app to quickly scaffold popular frontend projects like **Next.js**, **React + Vite**, and **Vue + Vite**, with options for **TypeScript**, **ESLint**, **Tailwind CSS**, and more.
