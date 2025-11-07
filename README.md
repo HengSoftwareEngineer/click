@@ -1,3 +1,5 @@
+> 🚀 For latest version, please check release list :)
+
 # 🖱️ Click.exe - Click
 
 📢 Click is a simple tool desktop app to quickly scaffold popular frontend projects like **Next.js**, **React + Vite**, and **Vue + Vite**, with options for **TypeScript**, **ESLint**, **Tailwind CSS**, and more.
