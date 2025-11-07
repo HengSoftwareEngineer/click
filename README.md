@@ -1,4 +1,4 @@
-> 🚀 For latest version, please check release list :)
+## 🚀 For latest version, please check releases list :)
 
 # 🖱️ Click.exe - Click
 
